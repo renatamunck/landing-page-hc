@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    scroll-behavior:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#FBF5B7;
+}
+
+/* header */
+header {
+    background-color: #d2691e;
+    padding: 20px;
+    align-items: center;
+}
+header:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: inline;
+    padding: 40px;
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: block;
+        padding: 8px;
+    }
+
+    .header {
+        padding: 5px;}
+}
+
+h2 {
+    position: relative;
+    text-transform: uppercase;	
+    margin: 0;
+    padding: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;color: #fff;
+    
+}
+
+
+#fundo {
+    background-color: #f1be91;
+	background-attachment: fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .section1 {
+        height: 400px;
+    }
+    
+}
+
+
+h1 {
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;color: #fff;
+    text-transform: uppercase;	
+    margin: 0;
+    font-size: 6vw;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+/* Formulário */
+#content {
+    padding-top: 30px;
+    text-align: center;
+}
+
+input[type=text] {
+    height: 2em;
+    margin: 1em 0 1.5em;
+    border-color: #d2691e;
+    border-radius: 1.75em;
+    padding: 0 1em;
+}
+
+input[type=submit] {
+    background: #fc973e;
+    border-radius: 1.75em;
+    padding: 2px 8px 2px 8px;
+}
+  
+input[type=submit]:hover {
+    background:white;
+    color:chocolate;
+    cursor: pointer;
+}
+
+
+.section-2 {
+    background-color:#f4a460;
+    border-radius: 1.5em;
+    width: auto;
+    height: auto;
+}
+
+.nomeProduto {
+    color: rgb(92, 58, 58);
+    padding: 15px 0 5px 0;
+}
+
+
+
+.imgProduto {
+    width: 320px;
+    height: 320px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards {
+    padding: 15px;
+    background-color: white;
+    border-radius: 3px;
+    margin: 10px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+    transition: transform .2s;
+}
+
+.imgProduto:hover{
+    opacity: 0.5;
+}
+
+.prod-card:hover{
+    transform: scale(1.02);;
+}
+
+@media (max-width: 600px) {
+    .gridProdutos {
+        flex-direction: column-reverse;
+    }
+}
+
+.preco {
+    color:brown;
+    font-size: 16px;
+}
+
+footer {
+    color:#8b4513;
+    text-align: center;
+    padding: 15px;
+}
